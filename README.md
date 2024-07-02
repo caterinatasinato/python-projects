@@ -2,7 +2,7 @@ This project implements the following 3 functions importing a cvs file called "f
 
 1) A function that takes as input the name of a driver and returns a list containing the driver's total points, the number of wins (how many times the driver finished first), and the number of podiums (how many times the driver finished in the top three).
    
-2) A function that does not take any parameters as input and returns a dictionary consisting of key-value pairs, where the key is a string containing the driver's name, and the associated value is an integer representing the total points the driver has accumulated by the end of the World Championship. It then saves the standings in a .txt file called "Final Final_Rank_Formula1_2008".
+2) A function that does not take any parameters as input and returns a dictionary consisting of key-value pairs, where the key is a string containing the driver's name, and the associated value is an integer representing the total points the driver has accumulated by the end of the World Championship. It then saves the standings in a txt file called "Final Final_Rank_Formula1_2008".
    
 
 
