@@ -3,6 +3,7 @@
 This project implements the following 3 functions, importing a CSV file called `formula1_data.csv`:
 
 1. **Driver Statistics Function:**
+   - Function: `specific_stats(driver)`
    - Takes as input the name of a driver.
    - Returns a list containing:
      - The driver's total points.
@@ -10,19 +11,23 @@ This project implements the following 3 functions, importing a CSV file called `
      - The number of podiums (how many times the driver finished in the top three).
 
 2. **Drivers Standings Function:**
+   - Function: `final_rank_drivers()`
    - Does not take any parameters as input.
+   - Reads race data from a CSV file.
+   - Calculates the total points for each driver.
    - Returns a dictionary consisting of key-value pairs:
      - Key: A string containing the driver's name.
      - Value: An integer representing the total points the driver has accumulated by the end of the World Championship.
    - Saves the standings in a txt file called `Final_Rank_Formula1_2008.txt`.
 
 3. **Constructors Standings Function:**
+   - Function: `final_rank_teams()`
    - Does not take any parameters as input.
+   - Reads the drivers' standings from the previously generated txt file.
+   - Calculates the total points for each constructor by summing up the points of the drivers racing for the constructor.
    - Returns a dictionary consisting of key-value pairs:
      - Key: A string containing the name of the constructor (Team).
      - Value: An integer representing the total points the constructor has accumulated by the end of the World Championship.
-   - The points accumulated by a constructor (Team) are the sum of the points that the drivers racing for the constructor have accumulated during the year.
-   - Uses the data saved in the previously created txt file.
 
 ## Data
 
@@ -37,20 +42,18 @@ The data used in this project is sourced from a CSV file named `formula1_data.cs
 ## Example
 
 ```python
-# Example usage of the functions
-
 # Import the necessary functions
-from formula1_analysis import get_driver_statistics, generate_drivers_standings, generate_constructors_standings
+from formula1_analysis import specific_stats, final_rank_drivers, final_rank_teams
 
 # Get statistics for a specific driver
-driver_name = "Lewis Hamilton"
-statistics = get_driver_statistics(driver_name)
-print(statistics)
+driver_name = input("Name of the pilot: ")
+specific_stats(driver_name)
 
 # Generate and save drivers standings
-drivers_standings = generate_drivers_standings()
+drivers_standings = final_rank_drivers()
 print(drivers_standings)
 
 # Generate and save constructors standings
-constructors_standings = generate_constructors_standings()
+constructors_standings = final_rank_teams()
 print(constructors_standings)
+
