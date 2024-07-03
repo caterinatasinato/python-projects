@@ -33,6 +33,16 @@ This project implements the following 3 functions, importing a CSV file called `
 
 The data used in this project is sourced from a CSV file named `formula1_data.csv`.
 
+### Dataset Structure
+
+The dataset `formula1_data.csv` contains the results of the 2008 Formula 1 World Championship season. It consists of 180 rows and the following 5 columns:
+
+1. **Driver:** Name of the Driver
+2. **Team:** Constructor for which the driver races
+3. **Race:** City where the Grand Prix was held
+4. **Country:** Country where the Grand Prix was held
+5. **Position:** A number between 0 and 8 representing the driver's position in the race (0 means the driver did not finish in the top 8).
+
 ## Usage
 
 1. Ensure you have the CSV file `formula1_data.csv` in the project directory.
