@@ -6,12 +6,6 @@ Welcome to the **Netflix Movies Analysis** project! 🎉
 
 This project dives into a dataset of Netflix movies to answer some intriguing questions about 1990s films and global movie production trends. 🕵️‍♂️✨
 
-We explore:
-
-1. **What was the most frequent movie duration in the 1990s?** ⏳
-2. **How many short action movies were released in the 1990s?** 🎬⚔️
-3. **Which country produced the highest number of movies?** 🌍🎥
-
 ## 🤔 Research Questions
 
 1. **What was the most frequent movie duration in the 1990s?** ⏰
