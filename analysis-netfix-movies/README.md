@@ -2,7 +2,9 @@
 
 ## 📖 Description
 
-Welcome to the **Netflix Movies Analysis** project! 🎉 This project dives into a dataset of Netflix movies to answer some intriguing questions about 1990s films and global movie production trends. 🕵️‍♂️✨
+Welcome to the **Netflix Movies Analysis** project! 🎉 
+
+This project dives into a dataset of Netflix movies to answer some intriguing questions about 1990s films and global movie production trends. 🕵️‍♂️✨
 
 We explore:
 
