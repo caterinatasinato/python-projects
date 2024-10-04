@@ -1,4 +1,4 @@
-# ✈Aviation Accidents Data Analysis ✈️
+# Aviation Accidents Data Analysis ✈️
 
 ## Description
 
