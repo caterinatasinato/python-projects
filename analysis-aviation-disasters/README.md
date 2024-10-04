@@ -1,4 +1,4 @@
-# ✈️ Aviation Accidents Data Analysis ✈️
+# ✈Aviation Accidents Data Analysis ✈️
 
 ## Description
 
@@ -26,7 +26,7 @@ In the first phase, we perform several steps to clean and transform the dataset:
    - **Fatalities**: Transform the 'fatalities' column to handle values expressed as sums (e.g., '45+7') and convert to numeric format.
    - **Year**: Extract and convert the year from the 'date' column for uniformity and ease of analysis.
 
-## 📈 Data Analysis and Visualization
+## Data Analysis and Visualization
 
 In the second phase, we perform data analysis and generate visualizations to answer key questions:
 
